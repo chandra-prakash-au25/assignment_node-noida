@@ -1,0 +1,152 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav{
+    background-color: #E9E9E9;
+    margin: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left:5%;
+}
+.nav-head{
+    font-size:26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.column {
+    float: left;
+    width: 350px;
+    padding: 0 10px;
+    margin: 30px;
+    overflow: auto;
+    height: 270px;
+    color: rgb(49, 44, 44);
+    cursor: pointer;
+  }
+  
+  .row {
+        margin-top: 50px;
+        padding-left: 30px;
+
+    }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      margin: 0px;
+    }
+    .row{
+        padding-left: 0px;
+
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+ .stick{
+    width: 60px;
+    height: 60px;
+    background: #c3c2c2;
+    border-radius: 20px;
+    margin-left: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+ .post{
+    text-align: center;
+    margin:3% 10% 5% 10%;
+    overflow: auto;
+
+ }
+ .home{
+    float: left;
+    margin-left:2%;
+    height: 50px;
+    width: 60px;
+    background-color:#c3c2c2;
+    text-align: center;
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #766f6f;
+ }
+ p{
+    font: size 14px;
+    color: #5d5a5a;
+ }
+ .right{
+    max-width: 60px;
+    padding: 5px;
+ }
+
+ .title_in{
+    height: 30px;
+    text-align: center;
+    color: #0e0e0e;
+    width: 50vw;
+    font-size: 20px;
+    border: none;
+    background-color:#E9E9E9;
+    border-bottom:1px solid white;
+
+ }
+ .input_d{
+    width:50vw;
+    min-height:50vh;
+    background-color:#E9E9E9;
+    border: none;
+    float: initial;
+    color: #766f6f;
+    font-size: 18px;
+
+ }
+ .posted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 50px;
+ }
+ .diff{
+    background-color:#7e7b7b;
+    height: 40px;
+    width: 50vw;
+    color: white;
+    padding-left: 10px;
+    
+ }
+ .nav-ie{
+    margin:10px;
+ }
+ .img{
+    width: 150px;
+    margin-left:20vw;
+ }
+ .uploads{
+    height: 150px;
+    width: 250px;
+ }
